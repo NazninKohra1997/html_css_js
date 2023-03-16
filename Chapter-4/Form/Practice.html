@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <h1> Form of a school </h1>
+        <form action="form.php">
+              <input type="text" placeholder="Enter the student name">
+               
+              <h3>Choose subject</h3>
+              <label for="subject">
+                <input type="radio" name="sub" value="subject1" id="subject"> Bangla 
+              </label>
+
+              <label for="subject2">
+                <input type="radio" name="sub" value="subject3" id="subject2"> English
+              </label>
+
+              <label for="sub">
+                <input type="radio" name="sub" value="subject4" id="sub"> Math
+              </label>
+
+              <h3>Select hall and canteen </h3> 
+
+              <label for="Hall">
+                <input type="checkbox" name="can" value="hall1" id="Hall"> Hall
+              </label>
+
+              <label for="canteen">
+                <input type="checkbox" name="can" value="hall2" id="canteen"> Canteen
+              </label>
+
+               <h3>Choose your Id</h3>
+              <select name="about" id="about">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <br>
+              <br>
+
+              <textarea name="id" id="ID" cols="30" rows="10" placeholder="Something about yourself!"></textarea>
+               
+        </form>
+    </div>
+</body>
+</html>
