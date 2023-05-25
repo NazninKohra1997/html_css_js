@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+
+    <style>
+        *{
+            margin: 0%;
+            height: 4444px;
+        }
+
+        li{
+            display: inline;
+            /* font-size: 4vh; */
+        }
+
+        header{
+            background-color: black;
+            color: white;
+            padding-top: 25px;
+            width: 105vw;
+            height: 9vh;
+            position: sticky;
+            top: 0;
+            
+        }
+
+        .c2{
+            background-color: blueviolet;
+            position: relative;
+            top: 0;
+            z-index: 3;
+          
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div class="c2">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, in quam beatae atque velit dicta accusamus, nemo odio culpa quia rerum? Accusantium dolores ut tenetur adipisci nulla quibusdam repudiandae laborum.</p>
+    </div>
+</body>
+</html>
