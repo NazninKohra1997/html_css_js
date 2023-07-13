@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-grow</title>
+
+    <style>
+        .c{
+            display: flex;
+            /* float: left; */
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .c1{
+            background-color: blue;
+            color: azure;
+            height: 20vh;
+            /* width: 20vw; */
+            flex-grow: 1;
+        }
+
+        .c2{
+            background-color: blueviolet;
+            color: beige;
+            height: 20vh;
+            width: 20vw;
+            order: 2;
+            align-self: flex-start;
+        }
+        .c3{
+            background-color: cadetblue;
+            color: black;
+            height: 20vh;
+            width: 20vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="c">
+        <div class="c1">
+            This is 1st box!
+        </div>
+        <div class="c2">
+            This is 2nd box!
+        </div>
+        <div class="c3">
+            This is 3rd box!
+        </div>
+    </div>
+</body>
+</html>

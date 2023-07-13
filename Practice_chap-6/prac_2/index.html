@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+
+    <style>
+        
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        header{
+            background-color: blue;
+            height: 8vh;
+            width: 100vw;
+        }
+       li{
+        display: inline;
+        padding: 1vh;
+       }
+
+       .c1{
+        background-color: chartreuse;
+        width: 45vw;
+        height: 50vh;
+        /* display: inline-block; */
+       display: flex;
+       /* flex-direction: row;
+        text-align: center; */
+       }
+       .c2{
+        background-color: brown;
+        width: 52.9vw;
+        height: 50vh;
+        /* display: inline-block; */
+         /* display: flex;
+       flex-direction: row; */
+        text-align: center;
+        /* border: .1px solid black; */
+       }
+      
+       .cc{
+        display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       }
+
+     
+       footer{
+        background-color: cadetblue;
+        height: 8vh;
+            width: 103vw;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+       }
+        
+    </style>
+</head>
+<body>
+    
+            <div class="c">
+           <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+           </header>
+       
+           <main>
+            <div class="cc">
+               <div class="c1">
+                Box1!
+               </div><div class="c2">
+                Box2!
+               </div>
+            </div>
+           </main>
+
+           <footer>
+            copyright &copy c;
+           </footer>
+       
+    </div>
+           
+       
+</body>
+</html>
