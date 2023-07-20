@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid row</title>
+
+    <style>
+        .container{
+            display: grid;
+            border: 3px solid red;
+            background-color: yellow;
+            /* grid-template-columns: auto auto; */
+            /* grid-template-columns: auto; */
+            /* grid-template-columns: auto 133px; */
+            grid-template-rows: 40px 100px 35px 40px;
+            /* grid-template-columns: auto auto auto auto auto; */
+            height: 50vh;
+        }
+
+        .c1{
+            background-color: brown;
+            color: chartreuse;
+            /* border: 3px solid rebeccapurple; */
+        }
+        .c2{
+            background-color: aqua;
+            color: blue;
+            /* border: 3px solid rebeccapurple; */
+        }
+        .c3{
+            background-color: blueviolet;
+            color: green;
+            /* border: 3px solid rebeccapurple; */
+        }
+        .c4{
+            background-color: cadetblue;
+            color: black;
+            /* border: 3px solid rebeccapurple; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="c1">
+            <p>This is row 1!</p>
+        </div>
+        <div class="c2">
+            <p>This is row2!</p>
+        </div>
+        <div class="c3">
+            <p>This is row3!</p>
+        </div>
+        <div class="c4">
+            <p>This is row4!</p>
+        </div>
+    </div>
+</body>
+</html>

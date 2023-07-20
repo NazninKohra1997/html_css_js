@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-gap</title>
+
+    <style>
+        .container{
+            background-color: yellow;
+            border: 3px solid blue;
+            display: grid;
+            grid-template-columns: auto auto;
+            /* grid-gap: 20px 20px; */
+            grid-gap: 20px;
+        }
+
+        .c1 ,.c2,.c3{
+            color: black;
+            background-color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="c1">
+            <p>This is class1!</p>
+        </div>
+        <div class="c2">
+            <p>This is class2!</p>
+        </div>
+        <div class="c3">
+            <p>This is class3!</p>
+        </div>
+    </div>
+</body>
+</html>
