@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS align content</title>
+
+    <style>
+        .container{
+            display: grid;
+            border: 3px solid red;
+            background-color: yellow;
+            grid-template-rows: 60px 100px 35px 40px;
+            grid-row-gap: 20px;
+            grid-template-columns: 120px 100px ;
+            grid-column-gap: 10px;
+            /* align-content: center; */
+            /* align-content: start; */
+            /* align-content: end; */
+            /* align-content: space-around; */
+            align-content:space-between;
+            height: 120vh;
+           
+        }
+
+        .c1{
+            background-color: brown;
+            color: chartreuse;
+            /* border: 3px solid rebeccapurple; */
+        }
+        .c2{
+            background-color: aqua;
+            color: blue;
+            /* border: 3px solid rebeccapurple; */
+        }
+        .c3{
+            background-color: blueviolet;
+            color: green;
+            /* border: 3px solid rebeccapurple; */
+        }
+        .c4{
+            background-color: cadetblue;
+            color: black;
+            /* border: 3px solid rebeccapurple; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="c1">
+            <p>This is row 1!</p>
+        </div>
+        <div class="c2">
+            <p>This is row2!</p>
+        </div>
+        <div class="c3">
+            <p>This is row3!</p>
+        </div>
+        <div class="c4">
+            <p>This is row4!</p>
+        </div>
+    </div>
+</body>
+</html>
