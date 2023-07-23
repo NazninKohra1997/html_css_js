@@ -12,7 +12,7 @@
             background-color: yellow;
             grid-template-rows: 60px 100px 35px 40px;
             grid-row-gap: 20px;
-            grid-template-columns: auto auto auto auto auto;
+            grid-template-columns: auto auto auto;
             grid-column-gap: 10px;
           
             height: 120vh;
@@ -29,7 +29,7 @@
             background-color: aqua;
             color: blue;
             /* border: 3px solid rebeccapurple; */
-            grid-column: 2/5;
+           grid-row: 2/ span 2;
         }
         .c3{
             background-color: blueviolet;
@@ -40,15 +40,32 @@
             background-color: cadetblue;
             color: black;
             /* border: 3px solid rebeccapurple; */
+            grid-row: 2/ span 2;
         }
         .c5{
             background-color: black;
             color: white;
+            /* grid-row: 2/ span 3; */
         }
         .c6{
             background-color: chocolate;
             color: aqua;
+            /* grid-row: 2/ span 2; */
         }
+        .c7{
+            background-color: blue;
+            color: bisque;
+            /* grid-row: 1/ span 2; */
+        }
+        .c8{
+            background-color: cornflowerblue;
+            color: chartreuse;
+        }
+        .c9{
+            background-color: crimson;
+            color: aqua;
+        }
+
     </style>
 </head>
 <body>
@@ -70,6 +87,15 @@
         </div>
         <div class="c6">
             <p>This is row6!</p>
+        </div>
+         <div class="c7">
+            <p>This is row7!</p>
+        </div>
+         <div class="c8">
+            <p>This is row8!</p>
+        </div>
+         <div class="c9">
+            <p>This is row9!</p>
         </div>
     </div>
 </body>
