@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LayOut with grid</title>
+
+    <style>
+
+        .container{
+            display: grid;
+            height: 50vh;
+            width: 80vw;
+            padding-top: 10vh;
+            padding-left: 20vh;
+            grid-row-gap: 0%;
+        }
+
+        .c1{
+            background-color: black;
+            color: bisque;
+            height: 200px;
+            height: 89px;
+
+            position: relative;
+            top: 2px;
+        }
+
+        .c2{
+            background-image: url("home (2).jpg");
+        
+           height: 15vh;
+           background-repeat: repeat-x;
+           background-size: contain;
+           text-align: center;
+          
+           
+        }
+
+        .c3{
+            display: flex;
+            background-color: cadetblue;
+            height: 30vh;
+            justify-content: space-around;
+            padding-top: 69px;
+           
+        }
+
+        ul li{
+            display: inline;
+            list-style: none;
+            padding-left: 7px;
+            
+        }
+
+        ul{
+            position: absolute;
+            top: 21px;
+            left: 888px;
+           
+           
+        }
+
+        .c1 img{
+            position: absolute;
+            top: 21px;
+        }
+
+        
+        .c3 img{
+            height: 100px;
+            width: 100px;
+           
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+  
+        <div class="c1">
+            <img src="home (1).jpg" alt="house">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        
+        <div class="c2">
+             
+        </div>
+
+        <div class="c3">
+            <img src="home (1).jpg" alt="house">
+            <img src="home (1).jpg" alt="house">
+            <img src="home (1).jpg" alt="house">
+        </div>
+
+    </div>
+
+</body>
+</html>
