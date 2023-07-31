@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css transition</title>
+
+    <style>
+        .c1{
+            color: black;
+            background-color: blueviolet;
+            border: 2px solid black;
+           
+            display: inline-block;
+            background-size: cover;
+           
+           
+           
+
+        }
+
+        .container{
+            background-color: yellow;
+            border: 2px solid green;
+            height: 20vh;
+            width: 80vw;
+
+
+        }
+
+        img:hover{
+            width: 200px;
+        }
+
+        img{
+            height: 50px;
+            width: 50px;
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+            /* transition-delay: 6s; */
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="c1">
+           <img src="home (2).jpg" alt="house">
+        </div>
+    </div>
+</body>
+</html>
