@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+           
+        }
+
+        .box{
+            background-color: chartreuse;
+            color: blue;
+            height: 30vh;
+            width: 30vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding-top: 14vh;
+
+            animation-name: animate;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 100;
+            animation-direction: alternate;
+        }
+
+        @keyframes animate{
+            from{
+                width: 30vw;
+                height: 30vh;
+            }
+            to{
+                width: 50vw;
+                height: 50vh;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p>This is me!</p>
+        </div>
+    </div>
+</body>
+</html>
