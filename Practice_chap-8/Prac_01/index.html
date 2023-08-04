@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress bar with Transition</title>
+</head>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .body{
+            height: 100vh;
+            width: 100vw;
+            background-color: cadetblue;
+        }
+
+         header{
+            background-color: black;
+            color: blanchedalmond;
+            height: 9vh;
+            width: 101vw;
+            font-size: 9px;
+           padding-top: 5px;
+          
+            
+         }
+
+         ul li{
+            display: inline;
+            padding-left: 6px;
+         }
+
+         ul{
+            list-style: none;
+         }
+
+         main{
+            background-color: cadetblue;
+            color: blue;
+            height: 100vh;
+            width: 100vw;
+            font-size: 10px;
+         }
+
+         .progressBar{
+            background-color: red;
+            height: .2px;
+            width: 0px;
+            transition: width .2s ease-in-out 0s;
+         }
+
+         .progressBar:hover{
+            width: 100vw;
+         }
+
+    </style>
+
+<body>
+
+    <div class="progressBar">
+
+    </div>
+    
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Content</li>
+        </ul>
+    </header>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod delectus officiis hic voluptate rem repudiandae quia fugiat, debitis nisi neque odit praesentium quaerat odio, cum consequuntur laboriosam! Sint quisquam earum iste culpa ab alias? Illum, exercitationem perspiciatis, saepe mollitia cupiditate molestias veniam odit sed, dolor distinctio soluta natus consectetur dolorum fugiat ad temporibus. Blanditiis eos, eaque illum expedita amet delectus voluptatem omnis ipsum, odit, aut quod voluptatibus exercitationem repellendus iste recusandae hic quisquam officia assumenda facere accusamus beatae magnam soluta? Fugiat doloribus laboriosam labore deleniti, cum nemo ut exercitationem nam aliquid est culpa temporibus soluta necessitatibus, laudantium natus totam quam?</p>
+    </main>
+
+</body>
+</html>

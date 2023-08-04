@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .container{
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+            
+        }
+
+        img{
+            animation: animate 2s ease-in-out .5s 100 alternate ;
+        }
+
+
+        @keyframes animate{
+            0%{
+                width : 20px;
+            }
+
+            50%{
+                width: 500px;
+            }
+
+            70%{
+                width: 30px;
+            }
+
+            100%{
+                width: 800px;
+            }
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="container">
+        <img src="Dragon.jpg" alt="Dragon" width="20px">
+    </div>
+</body>
+</html>

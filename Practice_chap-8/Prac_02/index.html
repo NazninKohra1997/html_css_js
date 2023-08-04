@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating image</title>
+</head>
+<style>
+    img{
+       
+        transform: rotateZ(0deg);
+        animation: rotate 1s ease-in-out 0s 100 normal;
+      
+    }
+
+    @keyframes rotate{
+        from{
+            transform: rotateZ(0deg);
+           
+        }
+        to{
+            transform: rotateZ(360deg);
+           
+        }
+    }
+</style>
+
+<body>
+    <img src="Dragon.jpg" alt="Dragon" width="200px">
+</body>
+</html>
