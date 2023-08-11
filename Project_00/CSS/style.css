@@ -1,61 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.copy{
-    background-color: black;
+.copy {
+    background-color: skyblue;
     color: blanchedalmond;
     height: 6vh;
     width: 100%;
-    
-    font-family: 'Mukta', sans-serif;
-    font-size: 4px;
-}
 
-ul li{
-    display: inline;
-    list-style: none;
-    padding-left: 8px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 6px;
    
 }
 
-ul{
+ul li {
+    display: inline;
+    list-style: none;
+    padding-left: 8px;
+
+}
+
+ul {
     padding-top: 1px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-header{
+
+header {
     background-color: black;
     height: 20px;
     width: 100vw;
     font-family: 'Mukta', sans-serif;
     background-color: skyblue;
-   
-    
+
+
 }
 
-header img{
+header img {
     width: 24px;
 }
 
+.search {
+    position: absolute;
+    top: 2px;
+    left: 177px;
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    border: none;
+    outline: none;
+    font-family: 'Mukta', sans-serif;
+}
+
+.search input {
+    height: 13px;
+    width: 136px;
+    border: none;
+    outline: none;
+}
+
+.button {
+    position: absolute;
+    top: 4px;
+    left: 341px;
+    cursor: pointer;
+    color: grey;
+    font-family: 'Mukta', sans-serif;
+    height: 10px;
+    width: 20px;
+    font-size: 5px;
+    border: none;
+    outline: none;
+    margin-left: -7px;
+}
+
+.search img {
+    width: 13px;
+    position: absolute;
+    top: -7px;
+    left: -8px;
+}
+
+.font img {
+    height: 159px;
+    width: 350px;
+    position: relative;
+    top: -5px;
+    left: 124px;
+}
+
 main {
+   
     height: 56vh;
     margin-top: 4px;
     margin-right: 10px;
     margin-bottom: 4px;
     margin-left: 10px;
-    background-color:beige;
+    background-color: beige;
+   
 }
 
-main p{
+main p {
     margin-left: 6px;
     padding-top: 4px;
     font-family: 'Mukta', sans-serif;
@@ -63,35 +118,28 @@ main p{
 }
 
 
-.c{
+.c {
     display: flex;
     /* flex-direction: row; */
     height: 43vh;
     padding-top: 7px;
-    width: 94.7vw;
+    width: 93.5vw;
     margin-left: 6px;
     padding-right: 2px;
-    background-color:white;
+    background-color: white;
 
 }
 
-.c1{
+.c1 {
     border: .5px solid grey;
     height: 40vh;
     width: 31vh;
     margin-left: 2px;
     margin-right: 2px;
+    
 }
 
-.c2{
-    border: .5px solid grey;
-    height: 40vh;
-    width: 31vh;
-    margin-left: 2px;
-    margin-right: 2px;
-}
-
-.c3{
+.c2 {
     border: .5px solid grey;
     height: 40vh;
     width: 31vh;
@@ -99,28 +147,7 @@ main p{
     margin-right: 2px;
 }
 
-.c4{
-    border: .5px solid grey;
-    height: 40vh;
-    width: 31vh;
-    margin-left: 2px;
-    margin-right: 2px;
-}
-.c5{
-    border: .5px solid grey;
-    height: 40vh;
-    width: 31vh;
-    margin-left: 2px;
-    margin-right: 2px;
-}
-.c6{
-    border: .5px solid grey;
-    height: 40vh;
-    width: 31vh;
-    margin-left: 2px;
-    margin-right: 2px;
-}
-.c6{
+.c3 {
     border: .5px solid grey;
     height: 40vh;
     width: 31vh;
@@ -128,29 +155,80 @@ main p{
     margin-right: 2px;
 }
 
-img{
+.c4 {
+    border: .5px solid grey;
+    height: 40vh;
+    width: 31vh;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.c5 {
+    border: .5px solid grey;
+    height: 40vh;
+    width: 31vh;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.c6 {
+    border: .5px solid grey;
+    height: 40vh;
+    width: 31vh;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.c6 {
+    border: .5px solid grey;
+    height: 40vh;
+    width: 31vh;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+img {
 
     margin-top: 7px;
     margin-left: 8px;
     width: 75px;
-    
+
 }
 
-.c3 img{
+.c3 img {
     width: 70px;
     height: 80px;
 }
 
-.c1 p, .c2 p, .c3 p,.c4 p,.c5 p,.c6 p{
+.c1 p,
+.c2 p,
+.c3 p,
+.c4 p,
+.c5 p,
+.c6 p {
     font-size: 7px;
     text-align: center;
+    font-family: 'Mukta', sans-serif;
 }
 
-.p1,.p2,.p3,.p4,.p5,.p6{
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
     font-weight: bold;
-    
+    font-family: 'Mukta', sans-serif;
+
 }
 
-.h1,.h2,.h3,.h4,.h5,.h6{
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     line-height: 4.4px;
 }
+
+
