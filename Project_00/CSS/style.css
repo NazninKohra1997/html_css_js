@@ -14,6 +14,8 @@
 
     font-family: 'Mukta', sans-serif;
     font-size: 6px;
+    position: absolute;
+top: 352px;
    
 }
 
@@ -37,7 +39,7 @@ a {
 header {
     background-color: black;
     height: 20px;
-    width: 100vw;
+    width: 100%;
     font-family: 'Mukta', sans-serif;
     background-color: skyblue;
 
@@ -94,9 +96,9 @@ header img {
 .font img {
     height: 159px;
     width: 350px;
-    position: relative;
-    top: -5px;
-    left: 124px;
+    position: absolute;
+top: 15px;
+left: 124px;
 }
 
 main {
@@ -107,6 +109,8 @@ main {
     margin-bottom: 4px;
     margin-left: 10px;
     background-color: beige;
+    position: absolute;
+    top: 180px;
    
 }
 
